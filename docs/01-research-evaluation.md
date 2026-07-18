@@ -83,11 +83,10 @@ pipeline from a visual workflow) but not as the reasoning core.
 
 **Decision:** **Firecrawl for both demo and prod.** One key covers SERP search
 *and* clean markdown extraction of competitor pages — exactly what
-`serp_analysis` needs. **Serper was rejected**: the free key returned `403` in
-our environment (see `notes.txt`) and it does not scrape, so we'd need a second
-vendor. Prod keeps Firecrawl (paid plan) and adds **Bright Data** only if scrape
-volume outgrows Firecrawl's limits. A free **DuckDuckGo + httpx** adapter is
-built in and auto-activates when no Firecrawl key is present, so the repo runs at
+`serp_analysis` needs, unlike Serper which requires a second vendor for
+scraping. Prod keeps Firecrawl (paid plan) and adds **Bright Data** only if
+scrape volume outgrows Firecrawl's limits. A free **DuckDuckGo + httpx** adapter
+is built in and auto-activates when no Firecrawl key is present, so the repo runs at
 truly $0.
 
 ---

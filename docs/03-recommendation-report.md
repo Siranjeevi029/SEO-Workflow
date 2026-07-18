@@ -38,7 +38,7 @@ the option-by-option comparison behind each pick.
 | **LangGraph** (not CrewAI/n8n as core) | Control flow must be explicit, testable, and resumable; native hooks feed our trace. |
 | **Claude Sonnet 5** for prose | Strongest long-form writing + editorial critique; this is where content ROI is made. |
 | **GPT-4o-mini** for structured steps | ~20× cheaper than Sonnet with no quality loss on simple structured output → −27% LLM cost. |
-| **Firecrawl** (not Serper) | One key does SERP search **and** clean markdown scrape; Serper 403'd on the free key and can't scrape. |
+| **Firecrawl** (not Serper) | One key does SERP search **and** clean markdown scrape; Serper needs a second tool for scraping. |
 | **Pinecone** for prod RAG | Serverless, zero-ops, scales with the content library. |
 | **Groq + Chroma + DDG** for demo | Free, so the prototype runs at $0; each swaps to the prod pick via one registry line. |
 

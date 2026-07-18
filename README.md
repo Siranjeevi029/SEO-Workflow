@@ -115,4 +115,3 @@ traces/trace.jsonl     agent action log (generated)
 
 - Demo tools (Groq, Chroma, DuckDuckGo) exist only to run the prototype free —
   they are **not** the production recommendation. Prod picks are justified in `docs/`.
-- `serper` was evaluated and rejected (403 on free key + no scraping) — see `notes.txt`.
