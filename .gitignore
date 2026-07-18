@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+.chroma/
+chroma_db/
+*.log
+.DS_Store
+node_modules/
+dist/
+.pytest_cache/
+notes.txt
+real-task.txt

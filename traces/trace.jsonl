@@ -1,0 +1,38 @@
+{"run_id": "run_589706104410", "seq": 1, "ts_ms": 1784402555129, "agent": "orchestrator", "action": "run_start", "status": "ok", "data": {"topic": "best project management software for small teams", "llm": "groq", "search": "firecrawl"}}
+{"run_id": "run_589706104410", "seq": 2, "ts_ms": 1784402555146, "agent": "keyword_research", "action": "expand_keywords", "status": "start", "data": {"topic": "best project management software for small teams"}}
+{"run_id": "run_589706104410", "seq": 3, "ts_ms": 1784402557397, "agent": "keyword_research", "action": "expand_keywords", "status": "ok", "duration_ms": 2251}
+{"run_id": "run_589706104410", "seq": 4, "ts_ms": 1784402557398, "agent": "keyword_research", "action": "done", "status": "ok", "data": {"count": 8, "model": "llama-3.3-70b-versatile", "tokens": 384}}
+{"run_id": "run_589706104410", "seq": 5, "ts_ms": 1784402557401, "agent": "serp_analysis", "action": "search", "status": "start", "data": {"query": "project management software for small teams"}}
+{"run_id": "run_589706104410", "seq": 6, "ts_ms": 1784402558666, "agent": "serp_analysis", "action": "search", "status": "ok", "duration_ms": 1265}
+{"run_id": "run_589706104410", "seq": 7, "ts_ms": 1784402558667, "agent": "serp_analysis", "action": "scrape", "status": "start", "data": {"url": "https://project-management.com/top-10-project-management-software/"}}
+{"run_id": "run_589706104410", "seq": 8, "ts_ms": 1784402560883, "agent": "serp_analysis", "action": "scrape", "status": "ok", "duration_ms": 2215}
+{"run_id": "run_589706104410", "seq": 9, "ts_ms": 1784402560885, "agent": "serp_analysis", "action": "scrape", "status": "start", "data": {"url": "https://plaky.com/blog/best-project-management-tools-for-small-teams/"}}
+{"run_id": "run_589706104410", "seq": 10, "ts_ms": 1784402562603, "agent": "serp_analysis", "action": "scrape", "status": "ok", "duration_ms": 1718}
+{"run_id": "run_589706104410", "seq": 11, "ts_ms": 1784402562604, "agent": "serp_analysis", "action": "scrape", "status": "start", "data": {"url": "https://www.reddit.com/r/projectmanagement/comments/1iepygj/small_business_looking_for_project_management/"}}
+{"run_id": "run_589706104410", "seq": 12, "ts_ms": 1784402563745, "agent": "serp_analysis", "action": "scrape", "status": "ok", "duration_ms": 1140}
+{"run_id": "run_589706104410", "seq": 13, "ts_ms": 1784402563747, "agent": "serp_analysis", "action": "scrape", "status": "start", "data": {"url": "https://www.icagile.com/resources/honest-review-of-6-personal-project-management-tools-with-kanban-view"}}
+{"run_id": "run_589706104410", "seq": 14, "ts_ms": 1784402565269, "agent": "serp_analysis", "action": "scrape", "status": "ok", "duration_ms": 1521}
+{"run_id": "run_589706104410", "seq": 15, "ts_ms": 1784402565270, "agent": "serp_analysis", "action": "scrape", "status": "start", "data": {"url": "https://www.youtube.com/watch?v=2CPcky1KQJo&vl=en-US"}}
+{"run_id": "run_589706104410", "seq": 16, "ts_ms": 1784402567147, "agent": "serp_analysis", "action": "scrape", "status": "ok", "duration_ms": 1877}
+{"run_id": "run_589706104410", "seq": 17, "ts_ms": 1784402567149, "agent": "serp_analysis", "action": "synthesize_gaps", "status": "start", "data": {"n": 5}}
+{"run_id": "run_589706104410", "seq": 18, "ts_ms": 1784402567603, "agent": "serp_analysis", "action": "synthesize_gaps", "status": "ok", "duration_ms": 453}
+{"run_id": "run_589706104410", "seq": 19, "ts_ms": 1784402567605, "agent": "serp_analysis", "action": "done", "status": "ok", "data": {"competitors": 5, "avg_wc": 4393}}
+{"run_id": "run_589706104410", "seq": 20, "ts_ms": 1784402567608, "agent": "brief", "action": "compose", "status": "start", "data": {"topic": "best project management software for small teams"}}
+{"run_id": "run_589706104410", "seq": 21, "ts_ms": 1784402568332, "agent": "brief", "action": "compose", "status": "ok", "duration_ms": 723}
+{"run_id": "run_589706104410", "seq": 22, "ts_ms": 1784402568333, "agent": "brief", "action": "done", "status": "ok", "data": {"title": "Best Project Management Software for Small Teams: A Comprehensive Guide"}}
+{"run_id": "run_589706104410", "seq": 23, "ts_ms": 1784402568336, "agent": "outline", "action": "generate", "status": "start", "data": {}}
+{"run_id": "run_589706104410", "seq": 24, "ts_ms": 1784402569512, "agent": "outline", "action": "generate", "status": "ok", "duration_ms": 1175}
+{"run_id": "run_589706104410", "seq": 25, "ts_ms": 1784402569513, "agent": "outline", "action": "done", "status": "ok", "data": {"chars": 2459}}
+{"run_id": "run_589706104410", "seq": 26, "ts_ms": 1784402569515, "agent": "writer", "action": "draft", "status": "start", "data": {"target_wc": 4500}}
+{"run_id": "run_589706104410", "seq": 27, "ts_ms": 1784402573579, "agent": "writer", "action": "draft", "status": "ok", "duration_ms": 4063}
+{"run_id": "run_589706104410", "seq": 28, "ts_ms": 1784402573581, "agent": "writer", "action": "done", "status": "ok", "data": {"words": 1452, "model": "llama-3.3-70b-versatile"}}
+{"run_id": "run_589706104410", "seq": 29, "ts_ms": 1784402573584, "agent": "editor", "action": "revise", "status": "start", "data": {}}
+{"run_id": "run_589706104410", "seq": 30, "ts_ms": 1784402575328, "agent": "editor", "action": "revise", "status": "ok", "duration_ms": 1743}
+{"run_id": "run_589706104410", "seq": 31, "ts_ms": 1784402575329, "agent": "editor", "action": "done", "status": "ok", "data": {"words": 569}}
+{"run_id": "run_589706104410", "seq": 32, "ts_ms": 1784402575332, "agent": "seo_optimizer", "action": "score", "status": "start", "data": {"primary": "project management software for small teams"}}
+{"run_id": "run_589706104410", "seq": 33, "ts_ms": 1784402575667, "agent": "seo_optimizer", "action": "score", "status": "ok", "duration_ms": 334}
+{"run_id": "run_589706104410", "seq": 34, "ts_ms": 1784402575668, "agent": "seo_optimizer", "action": "done", "status": "ok", "data": {"score": 65}}
+{"run_id": "run_589706104410", "seq": 35, "ts_ms": 1784402575670, "agent": "meta_schema", "action": "generate", "status": "start", "data": {}}
+{"run_id": "run_589706104410", "seq": 36, "ts_ms": 1784402576031, "agent": "meta_schema", "action": "generate", "status": "ok", "duration_ms": 361}
+{"run_id": "run_589706104410", "seq": 37, "ts_ms": 1784402576032, "agent": "meta_schema", "action": "done", "status": "ok", "data": {"title_tag": "Project Management Software"}}
+{"run_id": "run_589706104410", "seq": 38, "ts_ms": 1784402576033, "agent": "orchestrator", "action": "run_end", "status": "ok", "data": {"seo_score": 65}}
